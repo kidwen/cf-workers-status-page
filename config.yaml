@@ -17,31 +17,45 @@ settings:
 monitors:
   - id: main-home # unique identifier
     name: kidwen.top
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'My main home page.' # default=empty
     url: 'https://kidwen.top/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
+  - id: main-blog
+    name: blog.kidwen.top
+    description: 'My main blog.'
+    url: 'https://chat.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
   - id: next-chat
     name: nc.kidwen.top
-    description: 'next chat with ai model.'
+    description: 'Next chat with ai model.'
     url: 'https://nc.kidwen.top'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+  - id: chat-free
+    name: chat.kidwen.top
+    description: 'Chat with free model.'
+    url: 'https://chat.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
   - id: img-share
     name: img.kidwen.top
-    description: 'Share you img.'
+    description: 'Share your img.'
     url: 'https://img.kidwen.top/'
     method: GET
     expectStatus: 200
 
   - id: file-share
     name: file.kidwen.top
-    description: 'Share you file.'
+    description: 'Share your file.'
     url: 'https://file.kidwen.top/'
     method: GET
     expectStatus: 200
