@@ -27,7 +27,14 @@ monitors:
   - id: main-blog
     name: blog.kidwen.top
     description: 'My main blog.'
-    url: 'https://chat.kidwen.top/'
+    url: 'https://blog.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
+  - id: notion-blog
+    name: nx.kidwen.top
+    description: 'My main blog.'
+    url: 'https://nx.kidwen.top/'
     method: GET
     expectStatus: 200
 
