@@ -73,3 +73,10 @@ monitors:
     url: 'https://kidwen.serv00.net/'
     method: GET
     expectStatus: 200
+
+  - id: hexo-admin
+    name: admin.kidwen.top
+    description: 'An admin for blog.'
+    url: 'https://admin.kidwen.top/'
+    method: GET
+    expectStatus: 200
