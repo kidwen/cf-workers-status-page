@@ -66,3 +66,10 @@ monitors:
     url: 'https://file.kidwen.top/'
     method: GET
     expectStatus: 200
+
+  - id: word-press
+    name: kidwen.serv00.net
+    description: 'A word press site.'
+    url: 'https://kidwen.serv00.net/'
+    method: GET
+    expectStatus: 200
