@@ -38,6 +38,13 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: lobe-hub
+    name: lobe.kidwen.top
+    description: 'Lobe hub chat with ai model.'
+    url: 'https://lobe.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
   - id: next-chat
     name: nc.kidwen.top
     description: 'Next chat with ai model.'
