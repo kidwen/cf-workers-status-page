@@ -67,6 +67,13 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: bookmark
+    name: nav.kidwen.top
+    description: 'My bookmark.'
+    url: 'https://nav.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
   - id: word-press
     name: kidwen.serv00.net
     description: 'A word press site.'
