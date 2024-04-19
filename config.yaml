@@ -88,9 +88,9 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: hexo-admin
-    name: admin.kidwen.top
-    description: 'An admin for blog.'
-    url: 'https://admin.kidwen.top/'
+  - id: angular-site
+    name: ng.kidwen.top
+    description: 'An angular site.'
+    url: 'https://ng.kidwen.top/'
     method: GET
     expectStatus: 200
