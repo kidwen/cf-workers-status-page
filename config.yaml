@@ -74,6 +74,13 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: alist
+    name: alist.kidwen.top
+    description: 'Save and share file.'
+    url: 'https://alist.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
   - id: bookmark
     name: nav.kidwen.top
     description: 'My bookmark.'
