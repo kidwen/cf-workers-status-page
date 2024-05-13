@@ -60,6 +60,13 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: pandora-chat
+    name: pandora.kidwen.top
+    description: 'Proxy gpt by pandora.'
+    url: 'https://pandora.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
   - id: img-share
     name: img.kidwen.top
     description: 'Share your img.'
