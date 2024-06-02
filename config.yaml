@@ -67,6 +67,13 @@ monitors:
     method: GET
     expectStatus: 302
 
+  - id: libre-chat
+    name: libre.kidwen.top
+    description: 'Chat with libre.'
+    url: 'https://libre.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
   - id: img-share
     name: img.kidwen.top
     description: 'Share your img.'
@@ -78,6 +85,13 @@ monitors:
     name: file.kidwen.top
     description: 'Share your file.'
     url: 'https://file.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
+  - id: short-link
+    name: short.kidwen.top
+    description: 'Short link.'
+    url: 'https://short.kidwen.top/'
     method: GET
     expectStatus: 200
 
