@@ -32,9 +32,9 @@ monitors:
     expectStatus: 200
 
   - id: notion-blog
-    name: nx.kidwen.top
+    name: free.kidwen.top
     description: 'My main blog.'
-    url: 'https://nx.kidwen.top/'
+    url: 'https://free.kidwen.top/'
     method: GET
     expectStatus: 200
 
