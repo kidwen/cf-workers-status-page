@@ -96,9 +96,9 @@ monitors:
     expectStatus: 200
 
   - id: alist
-    name: alist.kidwen.top
+    name: aws.kidwen.top
     description: 'Save and share file.'
-    url: 'https://alist.kidwen.top/'
+    url: 'https://aws.kidwen.top/'
     method: GET
     expectStatus: 200
 
