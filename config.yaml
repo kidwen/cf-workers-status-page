@@ -102,6 +102,34 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: alist-local
+    name: alist.kidwen.top
+    description: 'Save and share file.'
+    url: 'https://alist.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
+  - id: zero-file
+    name: zf.kidwen.top
+    description: 'Zero3 file system.'
+    url: 'https://zf.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
+  - id: zero-panel
+    name: 1panel.kidwen.top
+    description: 'Zero3 1panel.'
+    url: 'https://1panel.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
+  - id: online-movie
+    name: zero3.kidwen.top
+    description: 'Online movie and book.'
+    url: 'https://zero3.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
   - id: bookmark
     name: nav.kidwen.top
     description: 'My bookmark.'
