@@ -60,13 +60,6 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: pandora-chat
-    name: pandora.kidwen.top
-    description: 'Proxy gpt by pandora.'
-    url: 'https://pandora.kidwen.top/'
-    method: GET
-    expectStatus: 302
-
   - id: libre-chat
     name: libre.kidwen.top
     description: 'Chat with libre.'
@@ -127,13 +120,6 @@ monitors:
     name: zero3.kidwen.top
     description: 'Online movie and book.'
     url: 'https://zero3.kidwen.top/'
-    method: GET
-    expectStatus: 200
-
-  - id: bookmark
-    name: nav.kidwen.top
-    description: 'My bookmark.'
-    url: 'https://nav.kidwen.top/'
     method: GET
     expectStatus: 200
 
