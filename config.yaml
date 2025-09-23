@@ -67,6 +67,13 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: image-share
+    name: image.kidwen.top
+    description: 'Share your img.'
+    url: 'https://image.kidwen.top/'
+    method: GET
+    expectStatus: 200  
+
   - id: img-share
     name: img.kidwen.top
     description: 'Share your img.'
