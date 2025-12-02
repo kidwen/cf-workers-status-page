@@ -31,17 +31,17 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: interview-question
-    name: interview.kidwen.top
-    description: 'My main blog.'
-    url: 'https://interview.kidwen.top/'
-    method: GET
-    expectStatus: 200
-
   - id: notion-blog
     name: free.kidwen.top
     description: 'My main blog.'
     url: 'https://free.kidwen.top/'
+    method: GET
+    expectStatus: 200
+
+  - id: interview-question
+    name: interview.kidwen.top
+    description: 'Interview question answer by AI(Gemini-2.5-flash).'
+    url: 'https://interview.kidwen.top/'
     method: GET
     expectStatus: 200
 
